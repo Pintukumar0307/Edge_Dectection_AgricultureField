@@ -1,0 +1,92 @@
+.heading{
+  margin-top: 20px;
+}
+
+.heading h1{
+  text-align: center;
+}
+
+.image{
+
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+}
+
+.image-component {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid red;
+
+  }
+  .result-component {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid red;
+
+  }
+
+  
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+
+.image-component img{
+   width: 400px;
+   height: 40vh;
+}
+.result-container img{
+  width: 400px;
+  height: 40vh;
+}
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    .image{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .image-component {
+      width: 100%;
+  
+    }
+    .result-component {
+      width: 100%;
+    }
+  
+  }
+  
